@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController" customModule="iCloudDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="bzV-Ci-cy4" id="yLV-SB-Vd9"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="bzV-Ci-cy4">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0lx-c1-Iyf">
+                    <rect key="frame" x="85" y="225" width="150" height="30"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="cPc-fX-WYc"/>
+                        <constraint firstAttribute="height" constant="30" id="nci-IH-Uad"/>
+                    </constraints>
+                    <state key="normal" title="iCloud"/>
+                    <connections>
+                        <action selector="btnClickCloud:" destination="-1" eventType="touchUpInside" id="pLo-Z0-xy4"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="0lx-c1-Iyf" firstAttribute="centerX" secondItem="bzV-Ci-cy4" secondAttribute="centerX" id="HFf-72-NBC"/>
+                <constraint firstItem="0lx-c1-Iyf" firstAttribute="centerY" secondItem="bzV-Ci-cy4" secondAttribute="centerY" id="w9W-Yu-zeQ"/>
+            </constraints>
+            <point key="canvasLocation" x="30.5" y="59.5"/>
+        </view>
+    </objects>
+</document>
